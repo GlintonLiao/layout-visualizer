@@ -19,15 +19,15 @@ limitations under the License.
 }
 
 body {
-  width: 300px;
-  height: 350px;
+  width: 220px;
+  height: 380px;
   padding: 1rem;
   text-align: center;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .icon {
@@ -36,17 +36,114 @@ img {
 }
 
 .btn-container {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
 button {
+  width: 8rem;
+  height: 2.5rem;
   padding: 0.5rem 1rem;
-  background-color: #fff;
+  color: white;
   border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  margin: 0 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="color"] {
+	appearance: none;
+  padding: 0;
+  outline: none;
+	border: 2.5px solid #fff;
+	width: 40px;
+	height: 40px;
+  border-radius: 25%;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+  border: none;
+  border-radius: 20%;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  padding: 0;
+	border: none;
+  border-radius: 20%;
+}
+
+.options-toggle {
+  display: flex;
+  width: 15rem;
+  padding: 0.5rem 0.5rem;
+  align-items: center;
+}
+
+.options-toggle p {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#checkbox-warpper {
+  flex-grow: 2;
+  width: 3rem;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+
+.toggle-back {
+  position: absolute;
+  width: 3rem;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-front {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0.25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: #000;
+  ring: 6px solid #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+#background:checked ~ .toggle-front {
+  translateX: 1.5rem;
+}
+
+#add {
+  background-color: #4272F5;
+}
+
+#add:hover {
+  background-color: #1e4db2;
+}
+
+#clear {
+  background-color: #D85888;
+}
+
+#clear:hover {
+  background-color: #a32f5f;
 }
 
 .option {
-  display: inline-block;
   align-items: center;
   margin-bottom: 1rem;
 }

@@ -6,7 +6,7 @@
   </head>
   <body>
     <div class="icon">
-      <img src="./icon.svg" alt="svg">
+      <img src="./icons/icon.svg" alt="svg">
       <h2>Layout Visualizer</h2>
       <p>The `console.log()` for CSS</p>
     </div>
@@ -15,16 +15,21 @@
       <button id="clear">Clear</button>
     </div>
     <div class="options">
-      <div>
-        <input type="color" id="background-color" value="#ff0000"/>
-        <label for="color">Background color</label>
+      <div class="options-toggle">
+        <label for="color">
+          <input type="color" id="background-color" value="#3aa757"/>
+        </label>
+        <p>Background</p>
+        <label for="checkbox" id="checkbox-warpper">
+          <input type="checkbox" id="background" />
+          <span class="toggle-back"></span>
+          <span class="toggle-front"></span>
+        </label>
       </div>
       <div>
-        <input type="color" id="border-color" value="#ff0000"/>
+        <input type="color" id="border-color" value="#098232"/>
         <label for="color">Border color</label>
       </div>
-      <input type="checkbox" id="background" />
-      <label for="checkbox">Background</label>
       <input type="checkbox" id="border" checked />
       <label for="checkbox">Border</label>
     </div>
