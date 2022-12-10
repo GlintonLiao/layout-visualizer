@@ -19,14 +19,30 @@ limitations under the License.
 }
 
 body {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   padding: 1rem;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-container {
+  padding: 0.5rem 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
 }
 
 .option {
