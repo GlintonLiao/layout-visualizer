@@ -20,18 +20,23 @@
           <input type="color" id="background-color" value="#3aa757"/>
         </label>
         <p>Background</p>
-        <label for="checkbox" id="checkbox-warpper">
-          <input type="checkbox" id="background" />
+        <label for="background" id="checkbox-warpper">
+          <input type="checkbox" id="background" name="background"/>
           <span class="toggle-back"></span>
           <span class="toggle-front"></span>
         </label>
       </div>
-      <div>
-        <input type="color" id="border-color" value="#098232"/>
-        <label for="color">Border color</label>
+      <div class="options-toggle">
+        <label for="color">
+          <input type="color" id="border-color" value="#098232"/>
+        </label>
+        <p>Border</p>
+        <label for="border" id="checkbox-warpper">
+          <input type="checkbox" id="border" name="border" checked />
+          <span class="toggle-back"></span>
+          <span class="toggle-front"></span>
+        </label>
       </div>
-      <input type="checkbox" id="border" checked />
-      <label for="checkbox">Border</label>
     </div>
     <script src="./index.js"></script>
   </body>
