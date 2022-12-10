@@ -20,7 +20,7 @@ limitations under the License.
 
 body {
   width: 220px;
-  height: 380px;
+  height: 360px;
   padding: 1rem;
   text-align: center;
 }
@@ -64,6 +64,7 @@ input[type="color"] {
 	width: 40px;
 	height: 40px;
   border-radius: 25%;
+  cursor: pointer;
 }
 
 input[type="color"]::-webkit-color-swatch-wrapper {
