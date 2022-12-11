@@ -9,19 +9,19 @@ let hasBorder = true;
 let hasBackground = false;
 
 bgColorInput.addEventListener('change', (e) => {
-    backgroundColor = e.target.value;
+  backgroundColor = e.target.value;
 });
 
 borderColorInput.addEventListener('change', (e) => {
-    borderColor = e.target.value;
+  borderColor = e.target.value;
 });
 
 bgEnable.addEventListener('change', (e) => {
-    hasBackground = e.target.checked;
+  hasBackground = e.target.checked;
 });
 
 borderEnable.addEventListener('change', (e) => {
-    hasBorder = e.target.checked;
+  hasBorder = e.target.checked;
 });
 
 const addBtn = document.getElementById('add');
