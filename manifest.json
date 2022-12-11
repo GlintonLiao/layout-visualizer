@@ -1,10 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Layout Visualizer",
-  "description": "Visualize the layout of a page.",
+  "description": "Visualize the layout of a page, boosting your dev or design experience.",
   "version": "1.0",
   "icons": {
-    "128": "icons/icon-128.png"
+    "128": "icons/icon-128.png",
+    "64": "icons/icon-64.png",
+    "32": "icons/icon-32.png"
   },
   "action": {
     "default_icon": {
@@ -23,7 +25,6 @@
     }
   ],
   "permissions": [
-    "activeTab",
-    "storage"
+    "activeTab"
   ]
 }
