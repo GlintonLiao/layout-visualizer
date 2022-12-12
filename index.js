@@ -1,7 +1,7 @@
 const bgColorInput = document.getElementById('background-color');
+const borderColorInput = document.getElementById('border-color');
 const bgEnable = document.getElementById('background');
 const borderEnable = document.getElementById('border');
-const borderColorInput = document.getElementById('border-color');
 
 let backgroundColor = '#3aa757';
 let borderColor = '#21B098';
