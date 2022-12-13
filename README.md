@@ -10,7 +10,7 @@
   <p align="center">
     A chrome extension for visualizing dom elements
     <br />
-    <a href="https://">Chrome Web Store</a>
+    <a href="https://chrome.google.com/webstore/detail/layout-visualizer/damlicfebbfedlipdokpehkmkpbhgpfi?hl=zh-CN&authuser=0">Chrome Web Store</a>
     ·
     <a href="https://github.com/glintonliao/layout-visualizer/issues">Report Bug</a>
     ·
